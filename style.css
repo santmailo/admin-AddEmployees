@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    background-color: black;
+    padding: 3rem;
+    color: white;
+}
+/* 
+.container{
+    border: 1px solid white;
+} */
+
+h1{
+    padding-bottom: 20px;
+}
+
+
+label{
+    padding-bottom: 10px;
+}
+
+input{
+    border-radius: 5px;
+    height: 2rem;   
+    font-size: 1rem;
+    padding-left: 10px;
+    background-color: inherit;
+    border: 2px solid white;
+    color: white;
+}
+
+input:focus{
+    background-color: white;
+    color: black;
+}
+
+.inputCards{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+button{
+    background-color: white;
+}
+
+button:hover{
+    background-color: grey;
+    color: white;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#submit{
+    padding: .8rem 4rem;
+    margin: 1.5rem auto;
+}
+
+
+#fail{
+    color: red;
+    display: none;
+    margin: 1.5rem auto;
+}
+
+#success{
+    color: greenyellow;
+    display: none;
+    margin: 1.5rem auto;
+}
+
+.list{
+    background-color: white;
+    margin: 3rem auto;
+}
+
+.orderList{
+    background-color: white;
+}
+
+
